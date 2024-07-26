@@ -15,6 +15,7 @@
 		40BC105E97802A55A1AB511F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EBBD9BBDC88C5BC11D7E22ED /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-React_Native_WLA-React_Native_WLATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-React_Native_WLA-React_Native_WLATests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D3DF340C2C5262F200136EDD /* MainApp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF340B2C5262F200136EDD /* MainApp.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,7 @@
 		00E356EE1AD99517003FC87E /* React_Native_WLATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = React_Native_WLATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* React_Native_WLATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = React_Native_WLATests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* React_Native_WLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = React_Native_WLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* MAIN APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAIN APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = React_Native_WLA/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = React_Native_WLA/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = React_Native_WLA/Images.xcassets; sourceTree = "<group>"; };
@@ -39,14 +40,25 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = React_Native_WLA/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = React_Native_WLA/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-React_Native_WLA-React_Native_WLATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React_Native_WLA-React_Native_WLATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A671A9E1092A63E932D2343 /* Pods-React_Native_WLA-React_Native_WLATests.mainapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA-React_Native_WLATests.mainapp.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA-React_Native_WLATests/Pods-React_Native_WLA-React_Native_WLATests.mainapp.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-React_Native_WLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA.debug.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA/Pods-React_Native_WLA.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-React_Native_WLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA.release.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA/Pods-React_Native_WLA.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-React_Native_WLA-React_Native_WLATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA-React_Native_WLATests.debug.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA-React_Native_WLATests/Pods-React_Native_WLA-React_Native_WLATests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-React_Native_WLA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-React_Native_WLA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FC87765EB8D6E5C833F4C2 /* Pods-React_Native_WLA.secondwla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA.secondwla.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA/Pods-React_Native_WLA.secondwla.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = React_Native_WLA/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-React_Native_WLA-React_Native_WLATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA-React_Native_WLATests.release.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA-React_Native_WLATests/Pods-React_Native_WLA-React_Native_WLATests.release.xcconfig"; sourceTree = "<group>"; };
+		8BB0B30BE51A2B1E7B100C5F /* Pods-React_Native_WLA-React_Native_WLATests.firstwla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA-React_Native_WLATests.firstwla.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA-React_Native_WLATests/Pods-React_Native_WLA-React_Native_WLATests.firstwla.xcconfig"; sourceTree = "<group>"; };
+		8F4FF31FD6EB0A5FE744F49D /* Pods-React_Native_WLA.firstwla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA.firstwla.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA/Pods-React_Native_WLA.firstwla.xcconfig"; sourceTree = "<group>"; };
+		D3DF33F42C525BDD00136EDD /* React_Native_WLA copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "React_Native_WLA copy-Info.plist"; path = "/Users/marcin/Desktop/react-native-white-label-example/ios/React_Native_WLA copy-Info.plist"; sourceTree = "<absolute>"; };
+		D3DF34092C525BDF00136EDD /* React_Native_WLA copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "React_Native_WLA copy copy-Info.plist"; path = "/Users/marcin/Desktop/react-native-white-label-example/ios/React_Native_WLA copy copy-Info.plist"; sourceTree = "<absolute>"; };
+		D3DF340B2C5262F200136EDD /* MainApp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainApp.xcassets; sourceTree = "<group>"; };
+		D3DF340D2C52630000136EDD /* FirstWLA.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FirstWLA.xcassets; sourceTree = "<group>"; };
+		D3DF34102C52631300136EDD /* SecondWLA.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SecondWLA.xcassets; sourceTree = "<group>"; };
+		E51F7F386F0F6807CD23E86B /* Pods-React_Native_WLA-React_Native_WLATests.secondwla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA-React_Native_WLATests.secondwla.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA-React_Native_WLATests/Pods-React_Native_WLA-React_Native_WLATests.secondwla.xcconfig"; sourceTree = "<group>"; };
 		EBBD9BBDC88C5BC11D7E22ED /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = React_Native_WLA/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F545FB9E35A9D9A2C9030E83 /* Pods-React_Native_WLA.mainapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-React_Native_WLA.mainapp.xcconfig"; path = "Target Support Files/Pods-React_Native_WLA/Pods-React_Native_WLA.mainapp.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,9 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				EBBD9BBDC88C5BC11D7E22ED /* PrivacyInfo.xcprivacy */,
+				D3DF340B2C5262F200136EDD /* MainApp.xcassets */,
+				D3DF340D2C52630000136EDD /* FirstWLA.xcassets */,
+				D3DF34102C52631300136EDD /* SecondWLA.xcassets */,
 			);
 			name = React_Native_WLA;
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D3DF33F42C525BDD00136EDD /* React_Native_WLA copy-Info.plist */,
+				D3DF34092C525BDF00136EDD /* React_Native_WLA copy copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -136,7 +153,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* React_Native_WLA.app */,
+				13B07F961A680F5B00A75B9A /* MAIN APP.app */,
 				00E356EE1AD99517003FC87E /* React_Native_WLATests.xctest */,
 			);
 			name = Products;
@@ -149,6 +166,12 @@
 				5709B34CF0A7D63546082F79 /* Pods-React_Native_WLA.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-React_Native_WLA-React_Native_WLATests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-React_Native_WLA-React_Native_WLATests.release.xcconfig */,
+				F545FB9E35A9D9A2C9030E83 /* Pods-React_Native_WLA.mainapp.xcconfig */,
+				8F4FF31FD6EB0A5FE744F49D /* Pods-React_Native_WLA.firstwla.xcconfig */,
+				68FC87765EB8D6E5C833F4C2 /* Pods-React_Native_WLA.secondwla.xcconfig */,
+				3A671A9E1092A63E932D2343 /* Pods-React_Native_WLA-React_Native_WLATests.mainapp.xcconfig */,
+				8BB0B30BE51A2B1E7B100C5F /* Pods-React_Native_WLA-React_Native_WLATests.firstwla.xcconfig */,
+				E51F7F386F0F6807CD23E86B /* Pods-React_Native_WLA-React_Native_WLATests.secondwla.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -195,7 +218,7 @@
 			);
 			name = React_Native_WLA;
 			productName = React_Native_WLA;
-			productReference = 13B07F961A680F5B00A75B9A /* React_Native_WLA.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* MAIN APP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -248,6 +271,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D3DF340C2C5262F200136EDD /* MainApp.xcassets in Resources */,
 				40BC105E97802A55A1AB511F /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +465,9 @@
 			};
 			name = Debug;
 		};
-		00E356F71AD99517003FC87E /* Release */ = {
+		00E356F71AD99517003FC87E /* mainApp */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-React_Native_WLA-React_Native_WLATests.release.xcconfig */;
+			baseConfigurationReference = 3A671A9E1092A63E932D2343 /* Pods-React_Native_WLA-React_Native_WLATests.mainapp.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -463,13 +487,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React_Native_WLA.app/React_Native_WLA";
 			};
-			name = Release;
+			name = mainApp;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-React_Native_WLA.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MainAppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -485,18 +510,19 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mainApp;
-				PRODUCT_NAME = React_Native_WLA;
+				PRODUCT_NAME = "MAIN APP";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
+		13B07F951A680F5B00A75B9A /* mainApp */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-React_Native_WLA.release.xcconfig */;
+			baseConfigurationReference = F545FB9E35A9D9A2C9030E83 /* Pods-React_Native_WLA.mainapp.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MainAppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = React_Native_WLA/Info.plist;
@@ -511,11 +537,11 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mainApp;
-				PRODUCT_NAME = React_Native_WLA;
+				PRODUCT_NAME = "MAIN APP";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Release;
+			name = mainApp;
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -523,7 +549,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -601,13 +627,13 @@
 			};
 			name = Debug;
 		};
-		83CBBA211A601CBA00E9B192 /* Release */ = {
+		83CBBA211A601CBA00E9B192 /* mainApp */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -637,6 +663,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = (
+					FirstWLA.xcassets,
+					SecondWLA.xcassets,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -676,7 +706,271 @@
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = mainApp;
+		};
+		D3DF33DA2C525B1A00136EDD /* firstWLA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-React_Native_WLA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = (
+					MainApp.xcassets,
+					SecondWLA.xcassets,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = firstWLA;
+		};
+		D3DF33DB2C525B1A00136EDD /* firstWLA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4FF31FD6EB0A5FE744F49D /* Pods-React_Native_WLA.firstwla.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = FirstWLAIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = React_Native_WLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstWLA;
+				PRODUCT_NAME = "FIRST WLA";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = firstWLA;
+		};
+		D3DF33DC2C525B1A00136EDD /* firstWLA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB0B30BE51A2B1E7B100C5F /* Pods-React_Native_WLA-React_Native_WLATests.firstwla.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = React_Native_WLATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React_Native_WLA.app/React_Native_WLA";
+			};
+			name = firstWLA;
+		};
+		D3DF33DD2C525B2000136EDD /* secondWLA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-React_Native_WLA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = (
+					MainApp.xcassets,
+					FirstWLA.xcassets,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = secondWLA;
+		};
+		D3DF33DE2C525B2000136EDD /* secondWLA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FC87765EB8D6E5C833F4C2 /* Pods-React_Native_WLA.secondwla.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SecondWLAIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = React_Native_WLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.secondWLA;
+				PRODUCT_NAME = "SECOND WLA";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = secondWLA;
+		};
+		D3DF33DF2C525B2000136EDD /* secondWLA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51F7F386F0F6807CD23E86B /* Pods-React_Native_WLA-React_Native_WLATests.secondwla.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = React_Native_WLATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React_Native_WLA.app/React_Native_WLA";
+			};
+			name = secondWLA;
 		};
 /* End XCBuildConfiguration section */
 
@@ -685,28 +979,34 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
+				00E356F71AD99517003FC87E /* mainApp */,
+				D3DF33DC2C525B1A00136EDD /* firstWLA */,
+				D3DF33DF2C525B2000136EDD /* secondWLA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = mainApp;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "React_Native_WLA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
+				13B07F951A680F5B00A75B9A /* mainApp */,
+				D3DF33DB2C525B1A00136EDD /* firstWLA */,
+				D3DF33DE2C525B2000136EDD /* secondWLA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = mainApp;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "React_Native_WLA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
-				83CBBA211A601CBA00E9B192 /* Release */,
+				83CBBA211A601CBA00E9B192 /* mainApp */,
+				D3DF33DA2C525B1A00136EDD /* firstWLA */,
+				D3DF33DD2C525B2000136EDD /* secondWLA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = mainApp;
 		};
 /* End XCConfigurationList section */
 	};
