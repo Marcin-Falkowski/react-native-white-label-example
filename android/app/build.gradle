@@ -76,7 +76,6 @@ android {
 
     namespace "com.mainApp"
     defaultConfig {
-        applicationId "com.mainApp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -93,6 +92,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -100,6 +100,27 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        mainApp {
+            applicationId 'com.mainApp'
+            resValue "string", "app_name", "Main App"
+            resValue "string", "build_config_package", "com.mainApp"
+
+        }
+        firstWLA {
+            applicationId 'com.firstWLA'
+            resValue "string", "app_name", "First WLA"
+            resValue "string", "build_config_package", "com.mainApp"
+
+        }
+        secondWLA {
+            resValue "string", "app_name", "Second WLA"
+            applicationId 'com.secondWLA'
+            resValue "string", "build_config_package", "com.mainApp"
+
         }
     }
 }

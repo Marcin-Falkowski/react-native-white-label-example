@@ -3,17 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android:mainApp": "react-native run-android --mode=mainAppDebug",
+    "android:firstWLA": "react-native run-android --mode=firstWLADebug --appId=com.firstWLA",
+    "android:secondWLA": "react-native run-android --mode=secondWLADebug --appId=com.secondWLA",
     "ios": "react-native run-ios --simulator=\"iPhone 15 Pro Max\"",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
-    "@eva-design/eva": "^2.2.0",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/native-stack": "^6.10.1",
-    "@ui-kitten/components": "^5.3.1",
     "i18next": "^23.12.2",
     "react": "18.2.0",
     "react-i18next": "^15.0.0",
