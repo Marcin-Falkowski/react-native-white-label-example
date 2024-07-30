@@ -1704,27 +1704,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eva-design/dss@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@eva-design/dss@npm:2.2.0"
-  checksum: 10c0/22ffc50d684751fec24ec80424de6b2f19fc37c4666950940854520ddee79dd91b29ae64c4d74c8305d199108b78c026e336a12dc1c5334df4b249e7b126bc0f
-  languageName: node
-  linkType: hard
-
-"@eva-design/eva@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@eva-design/eva@npm:2.2.0"
-  checksum: 10c0/7c212abdd066f254b670a4ad6f1f840ab46525506c120087937ab27685733d347067d0ebea21413fc41822ed7ef00a64f191150c5515113fe7f1b864808343bf
-  languageName: node
-  linkType: hard
-
-"@eva-design/processor@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@eva-design/processor@npm:2.2.0"
-  checksum: 10c0/423b98b49db894e0f5962c24dcbdaacfa3abbca536ed529b10a1c3494574b0e2833dbe3f0d528d61846cc9e010570b5802943aaab430f07dae36ff666231adb4
-  languageName: node
-  linkType: hard
-
 "@hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.3.0":
   version: 9.3.0
   resolution: "@hapi/hoek@npm:9.3.0"
@@ -3078,21 +3057,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ui-kitten/components@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "@ui-kitten/components@npm:5.3.1"
-  dependencies:
-    "@eva-design/dss": "npm:^2.2.0"
-    "@eva-design/processor": "npm:^2.2.0"
-    fecha: "npm:3.0.3"
-    hoist-non-react-statics: "npm:^3.2.1"
-    lodash.merge: "npm:^4.6.1"
-  peerDependencies:
-    react-native-svg: "*"
-  checksum: 10c0/75aa765b265bf3b5d8e73da3e156956bd01c323634bb0a595abb8e1db1ad626638f67b744a05de4ec920988e60c2cf170a94d1e55489a127bfe31e3122f020fb
-  languageName: node
-  linkType: hard
-
 "@ungap/structured-clone@npm:^1.2.0":
   version: 1.2.0
   resolution: "@ungap/structured-clone@npm:1.2.0"
@@ -3107,7 +3071,6 @@ __metadata:
     "@babel/core": "npm:^7.20.0"
     "@babel/preset-env": "npm:^7.20.0"
     "@babel/runtime": "npm:^7.20.0"
-    "@eva-design/eva": "npm:^2.2.0"
     "@react-native/babel-preset": "npm:0.74.85"
     "@react-native/eslint-config": "npm:0.74.85"
     "@react-native/metro-config": "npm:0.74.85"
@@ -3116,7 +3079,6 @@ __metadata:
     "@react-navigation/native-stack": "npm:^6.10.1"
     "@types/react": "npm:^18.2.6"
     "@types/react-test-renderer": "npm:^18.0.0"
-    "@ui-kitten/components": "npm:^5.3.1"
     babel-jest: "npm:^29.6.3"
     eslint: "npm:^8.19.0"
     i18next: "npm:^23.12.2"
@@ -5049,13 +5011,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fecha@npm:3.0.3":
-  version: 3.0.3
-  resolution: "fecha@npm:3.0.3"
-  checksum: 10c0/62c9f69f905788ff767c4784faabaf106d87e81670b3ab519d1d36af4fb32b7fe7882f2980e8d70de08e176c79b17231d5c1d9051908fa006723a5f9e9e41ca1
-  languageName: node
-  linkType: hard
-
 "file-entry-cache@npm:^6.0.1":
   version: 6.0.1
   resolution: "file-entry-cache@npm:6.0.1"
@@ -5538,15 +5493,6 @@ __metadata:
   dependencies:
     source-map: "npm:^0.7.3"
   checksum: 10c0/d772faa712f97ec009cb8de1f6b2dc26af491d1baaea92af7649fbb9cafd60a9c7a499de32d23ba7606e501147bfb2daf14e477c967f11e3de8a1e41ecf626c7
-  languageName: node
-  linkType: hard
-
-"hoist-non-react-statics@npm:^3.2.1":
-  version: 3.3.2
-  resolution: "hoist-non-react-statics@npm:3.3.2"
-  dependencies:
-    react-is: "npm:^16.7.0"
-  checksum: 10c0/fe0889169e845d738b59b64badf5e55fa3cf20454f9203d1eb088df322d49d4318df774828e789898dcb280e8a5521bb59b3203385662ca5e9218a6ca5820e74
   languageName: node
   linkType: hard
 
@@ -6906,7 +6852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.merge@npm:^4.6.1, lodash.merge@npm:^4.6.2":
+"lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: 10c0/402fa16a1edd7538de5b5903a90228aa48eb5533986ba7fa26606a49db2572bf414ff73a2c9f5d5fd36b31c46a5d5c7e1527749c07cbcf965ccff5fbdf32c506
@@ -8210,7 +8156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^16.13.0, react-is@npm:^16.13.1, react-is@npm:^16.7.0":
+"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^16.13.0, react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
