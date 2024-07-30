@@ -1,0 +1,40 @@
+# frozen_string_literal: true
+
+platform :android do
+  desc '.apk file for Main App'
+  lane :main_app__apk_build do
+    gradle(task: 'clean', project_dir: './android')
+    gradle(task: 'assemble', flavor: 'mainApp', build_type: 'Release', project_dir: './android')
+    # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
+  end
+  desc '.apk file for First WLA'
+  lane :firstWLA_app_apk_build do
+    gradle(task: 'clean', project_dir: './android')
+    gradle(task: 'assemble', flavor: 'firstWLA', build_type: 'Release', project_dir: './android')
+    # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
+  end
+  desc '.apk file for Second WLA'
+  lane :secondWLA_app_apk_build do
+    gradle(task: 'clean', project_dir: './android')
+    gradle(task: 'assemble', flavor: 'secondWLA', build_type: 'Release', project_dir: './android')
+    # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
+  end
+    desc '.aab file for Main App'
+  lane :main_app_production_build do
+    gradle(task: 'clean', project_dir: './android')
+    gradle(task: 'bundle', flavor: 'mainApp', build_type: 'Release', project_dir: './android')
+    # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
+  end
+  desc '.aab file for First WLA'
+  lane :firstWLA_app_production_build do
+    gradle(task: 'clean', project_dir: './android')
+    gradle(task: 'bundle', flavor: 'firstWLA', build_type: 'Release', project_dir: './android')
+    # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
+  end
+  desc '.aab file for Second WLA'
+  lane :secondWLA_app_production_build do
+    gradle(task: 'clean', project_dir: './android')
+    gradle(task: 'bundle', flavor: 'secondWLA', build_type: 'Release', project_dir: './android')
+    # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
+  end
+end
