@@ -38,3 +38,91 @@ platform :android do
     # supply(track: 'beta', abb: './android/app/build/outputs/apk/app-beta-release.apk')
   end
 end
+platform :ios do
+  desc "Build and run Main App on Simulator"
+  lane :main_app_simulator do
+    increment_build_number(xcodeproj: "YourApp.xcodeproj")
+    build_app(
+      scheme: "MainAppScheme",
+      configuration: "Debug",
+      destination: "generic/platform=iOS Simulator",
+      skip_archive: true
+    )
+    run_tests(
+      scheme: "MainAppScheme",
+      devices: ["iPhone 15"]
+    )
+  end
+
+  desc "Build and run First WLA on Simulator"
+  lane :first_wla_simulator do
+    increment_build_number(xcodeproj: "YourApp.xcodeproj")
+    build_app(
+      scheme: "FirstWLAScheme",
+      configuration: "Debug",
+      destination: "generic/platform=iOS Simulator",
+      skip_archive: true
+    )
+    run_tests(
+      scheme: "FirstWLAScheme",
+      devices: ["iPhone 15"] 
+    )
+  end
+
+  desc "Build and run Second WLA on Simulator"
+  lane :second_wla_simulator do
+    increment_build_number(xcodeproj: "YourApp.xcodeproj")
+    build_app(
+      scheme: "SecondWLAScheme",
+      configuration: "Debug",
+      destination: "generic/platform=iOS Simulator",
+      skip_archive: true
+    )
+    run_tests(
+      scheme: "SecondWLAScheme",
+      devices: ["iPhone 15"] 
+    )
+  end
+  desc "Build Main App without deployment"
+  lane :main_app_build_local do
+    increment_build_number(xcodeproj: "React_Native_WLA.xcodeproj")
+    build_app(
+      scheme: "React_Native_WLA",
+      configuration: "Release",
+      export_method: "development",
+      export_options: {
+        provisioningProfiles: {
+          "com.mainApp" => "MainApp_Development_Provisioning_Profile"
+        }
+      }
+  )
+  end
+    desc "Build First WLA without deployment"
+  lane :main_app_build_local do
+    increment_build_number(xcodeproj: "React_Native_WLA.xcodeproj")
+    build_app(
+      scheme: "FirstWLA",
+      configuration: "Release",
+      export_method: "development",
+      export_options: {
+        provisioningProfiles: {
+          "com.firstWLA" => "MainApp_Development_Provisioning_Profile"
+        }
+      }
+  )
+  end
+  desc "Build Second WLA without deployment"
+  lane :main_app_build_local do
+    increment_build_number(xcodeproj: "React_Native_WLA.xcodeproj")
+    build_app(
+      scheme: "SecondWLA",
+      configuration: "Release",
+      export_method: "development",
+      export_options: {
+        provisioningProfiles: {
+          "com.secondWLA" => "MainApp_Development_Provisioning_Profile"
+        }
+      }
+  )
+  end
+end
